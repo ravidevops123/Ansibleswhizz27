@@ -1,5 +1,5 @@
 ---
-- hosts: amazonos
+- hosts: appserver
   tasks:
   - name : ping into the node1
     ping:
